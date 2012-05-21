@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+margin:0px 0px 0px 0px;
+height:100%;
+padding: 0px 0px 0px 0px;
+}
+body{
+margin:0px 0px 0px 0px;
+height:100%;
+width:100%;
+overflow:hidden;
+padding: 0px 0px 0px 0px;
+background-color:#000;
+background-image:url("../img/bg.jpg") ;
+background-repeat:no-repeat;
+
+}
+#titulo{
+
+text-align:center;
+width:100%;
+position:fixed;
+font-family: "Trebuchet MS", sans-serif;
+font-size: 44px;
+font-style: normal;
+font-weight: bold;
+text-transform: normal;
+letter-spacing: -2px;
+line-height: 1.2em;
+color:#039;
+}
+.preguntatexto{
+text-align:center;
+width:100%;
+position:relative;
+font-family: "Trebuchet MS", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: bold;
+text-transform: normal;
+letter-spacing: -2px;
+line-height: 1.2em;
+color:#039;
+}
+.pregunta{
+padding:0px;
+position:relative;
+min-width:850px;
+min-height:400px;
+margin-top:150px;
+float:left;
+margin-left:20%;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+background:-moz-linear-gradient(center bottom,rgba(245, 245, 245, 0.5)5%,rgba(245, 245, 245, 1) 95%);
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245,245,245,1)),to(rgba(245,245,245,0.5)));
+}
+.boton{
+font-family: "Trebuchet MS", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: bold;
+text-transform: normal;
+letter-spacing: -2px;
+line-height: 1.2em;
+position:absolute;
+width:80px;
+height:40px;
+text-decoration:none;
+bottom:120px;
+text-align:justify;
+text-align:center;
+}
+#verdadero{
+color:#090;
+margin-left:25%;
+
+}
+#falso{
+margin-left:65%;
+color:#C00;
+}
